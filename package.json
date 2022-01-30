@@ -3,9 +3,12 @@
   "type": "module",
   "engines": {
     "node": ">=16 <17",
-    "npm": ">=7 <8"
+    "npm": ">=8 <9"
   },
   "scripts": {
     "start": "node src/index"
+  },
+  "devDependencies": {
+    "typescript": "4.5.5"
   }
 }
