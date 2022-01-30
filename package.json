@@ -6,7 +6,7 @@
     "npm": ">=8 <9"
   },
   "scripts": {
-    "start": "node src/index"
+    "start": "tsc && node build/index"
   },
   "devDependencies": {
     "typescript": "4.5.5"
